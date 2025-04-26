@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociales</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Íconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff5f6d, #ffc371);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 0 10px;
+      background-color: #222;
+    }
+
+    .logo img {
+      width: 300px;
+      height: auto;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 15px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+
+    /* Galería o contenido de imágenes debajo del logo y la barra */
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .galeria img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      transition: transform 0.3s;
+    }
+
+    .galeria img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Redes sociales al final */
+    .redes-sociales {
+      margin-top: auto;
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .redes-sociales a {
+      color: white;
+      font-size: 1.8rem;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .redes-sociales a:hover {
+      color: #ff5722;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="logopollo" alt="pollo">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="contac.html">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Galería o contenido debajo del logo -->
+  <div class="galeria">
+    <img src="pollo1.jpeg" alt="Producto 1">
+    <img src="pollo2.jpeg" alt="Producto 2">
+    <img src="pollo3.jpeg" alt="Producto 3">
+    <img src="pollo4.jpeg" alt="Producto 3">
+    <img src="pollo5.jpeg" alt="Producto 3">
+    <img src="pollo6.jpeg" alt="Producto 3">
+    <img src="pollo7.jpeg" alt="Producto 3">
+    <img src="pollo8.jpeg" alt="Producto 3">
+    <img src="pollo9.jpeg" alt="Producto 3">
+    <img src="pollo10.jpeg" alt="Producto 3">
+  </div>
+
+</body>
+</html>
+
+

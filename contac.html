@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Redes Sociales</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Íconos de FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to right, #ff5f6d, #ffc371);
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #222;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .logo img {
+      height: 100px;
+      width: auto;
+    }
+
+    nav {
+      background-color: #333;
+      padding: 10px 0;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      color: #ffcc00;
+    }
+
+    /* Redes sociales al final */
+    .redes-sociales {
+      margin-top: auto;
+      background-color: #222;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    .redes-sociales a {
+      color: white;
+      font-size: 1.8rem;
+      margin: 0 15px;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .redes-sociales a:hover {
+      color: #ff5722;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="logo">
+      <img src="wesley.jpg.jpg" alt="Logo Wesley">
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="galeria.html">Galería</a></li>
+      <li><a href="contac.html">Contáctanos</a></li>
+    </ul>
+  </nav>
+
+  <!-- Redes Sociales en el pie -->
+  <div class="redes-sociales">
+    <a href="https://www.facebook.com/share/15W1oCufQY/?mibextid=qi2Omg" target="_blank" title="Facebook">
+      <i class="fab fa-facebook"></i>
+    </a>
+    <a href="https://www.instagram.com/camperogt?igsh=MTN2MzJoN2ZhaHF2Ng==" target="_blank" title="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+
+</body>
+</html>
